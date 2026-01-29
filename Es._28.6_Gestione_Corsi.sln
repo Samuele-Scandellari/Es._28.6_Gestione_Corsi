@@ -1,13 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36811.4 d17.14
+VisualStudioVersion = 17.14.36811.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Es._28.6_Gestione_Corsi", "Es._28.6_Gestione_Corsi\Es._28.6_Gestione_Corsi.csproj", "{869BA0A0-6C06-4FD2-8E76-EFAEE79139AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestoreCorsi.Console", "GestoreCorsi.Console\GestoreCorsi.Console.csproj", "{869BA0A0-6C06-4FD2-8E76-EFAEE79139AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestioneCorsi.Library", "GestioneCorsi.Library\GestioneCorsi.Library.csproj", "{47FDB694-E997-4134-95F7-471ED50A5FFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestioneCorsi.Library", "GestioneCorsi.Library\GestioneCorsi.Library.csproj", "{47FDB694-E997-4134-95F7-471ED50A5FFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGestoreCorsi", "TestGestoreCorsi\TestGestoreCorsi.csproj", "{6DA2E5DF-B049-45B4-99A0-681A6A27305B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestGestoreCorsi", "GestoreCorsi.Test\TestGestoreCorsi.csproj", "{6DA2E5DF-B049-45B4-99A0-681A6A27305B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GertoreCorsi.WindFOrm", "GertoreCorsi.WindFOrm\GertoreCorsi.WindFOrm.csproj", "{A6B8B525-E774-4F8F-A65A-0A9671039F26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestoreCorsi.Winform", "GestoreCorsi.Winform\GestoreCorsi.Winform.csproj", "{046FA6F9-8870-42CD-A9F5-F50C7DC0069F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{6DA2E5DF-B049-45B4-99A0-681A6A27305B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DA2E5DF-B049-45B4-99A0-681A6A27305B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DA2E5DF-B049-45B4-99A0-681A6A27305B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6B8B525-E774-4F8F-A65A-0A9671039F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6B8B525-E774-4F8F-A65A-0A9671039F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6B8B525-E774-4F8F-A65A-0A9671039F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6B8B525-E774-4F8F-A65A-0A9671039F26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{046FA6F9-8870-42CD-A9F5-F50C7DC0069F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{046FA6F9-8870-42CD-A9F5-F50C7DC0069F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{046FA6F9-8870-42CD-A9F5-F50C7DC0069F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{046FA6F9-8870-42CD-A9F5-F50C7DC0069F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

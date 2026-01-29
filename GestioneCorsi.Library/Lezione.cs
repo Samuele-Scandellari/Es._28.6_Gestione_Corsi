@@ -16,8 +16,7 @@ namespace GestioneCorsi.Library
         public Aula Aula { get; set; }
         public List<Studente> Presenti { get; set; } = new List<Studente>();
 
-        public Lezione(DateTime data, string descrizione, TimeSpan durata, TimeSpan orarioInizio, Docente docente,
-            Aula aula)
+        public Lezione(DateTime data, string descrizione, TimeSpan durata, TimeSpan orarioInizio, Docente docente, Aula aula)
         {
             Data = data;
             Descrizione = descrizione;
